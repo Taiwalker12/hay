@@ -1,24 +1,18 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "declaration": true,
+    "stripInternal": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "module": "es2015",
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    "skipLibCheck": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "strictNullChecks": true,
-    "outDir": "../dist/all/hay",
-    "noImplicitAny": true,
-    "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "rxjs/*": ["../node_modules/rxjs/*"]
-    },
-    "rootDir": ".",
-    "inlineSourceMap": true,
-    "lib": ["es5", "dom", "es2015.promise", "es2015.collection", "es2015.iterable"],
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true,
-    "target": "es5",
-    "types": []
+    "sourceMap": true,
+    "inlineSources": true
   }
 }

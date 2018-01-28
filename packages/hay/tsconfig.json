@@ -1,7 +1,10 @@
 {
-  "extends": "../tsconfig-build.json",
+  "extends": "../tsconfig.json",
 
   "compilerOptions": {
+    "module": "commonjs",
+    "stripInternal": false,
+    "target": "es5",
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
