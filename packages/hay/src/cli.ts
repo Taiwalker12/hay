@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+import * as minimist from 'minimist';
+
+const argv = minimist(process.argv.slice(2));
+console.dir(argv);
