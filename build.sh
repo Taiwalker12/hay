@@ -156,16 +156,6 @@ TSC=`pwd`/node_modules/.bin/tsc
 UGLIFYJS=`pwd`/node_modules/.bin/uglifyjs
 ROLLUP=`pwd`/node_modules/.bin/rollup
 
-if [[ ${BUILD_ALL} == true && ${TYPECHECK_ALL} == true ]]; then
-  rm -rf ./dist/all/
-  rm -rf ./dist/packages
-
-  mkdir -p ./dist/all/
-
-  TSCONFIG="packages/tsconfig.json"
-  $TSC -p ${TSCONFIG}
-fi
-
 if [[ ${BUILD_ALL} == true ]]; then
   rm -rf ./dist/packages
   if [[ ${BUNDLE} == true ]]; then
