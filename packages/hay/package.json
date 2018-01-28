@@ -1,0 +1,22 @@
+{
+  "name": "hay",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "concurrent test hay for javascript",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "Ryan Clark <ryan@ryanclark.me>",
+  "license": "MIT",
+  "bin": {
+    "hay": "./src/cli.js"
+  },
+  "dependencies": {
+    "injection-js": "^2.2.1",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.6"
+  },
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hayjs/hay.git"
+  }
+}

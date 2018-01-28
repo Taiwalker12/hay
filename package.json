@@ -1,0 +1,22 @@
+{
+  "name": "hay",
+  "version": "1.0.0",
+  "description": "concurrent test runner for javascript",
+  "repository": "git@github.com:hayjs/hay.git",
+  "author": "Ryan Clark <ryan@ryanclark.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./build.sh ${PACKAGES:+ \"--packages=$PACKAGES\"}",
+    "build:watch": "chokidar 'packages/**/*.ts' -c 'yarn build' --silent --initial"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "typescript": "^2.6.2",
+    "uglify-js": "^3.3.9"
+  },
+  "dependencies": {
+    "injection-js": "^2.2.1",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.6"
+  }
+}

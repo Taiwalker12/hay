@@ -1,0 +1,23 @@
+# Editors
+.brackets.json
+.idea
+*.sublime-workspace
+.tern-project
+.vscode/
+
+# Folders
+/dist
+
+# Node
+/node_modules
+yarn-error.log
+
+# Files
+_*.bat
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+parallel

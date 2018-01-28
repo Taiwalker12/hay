@@ -1,0 +1,5 @@
+/**
+ * @license hay v0.0.0-PLACEHOLDER
+ * (c) 2010-2018 Ryan Clark <ryan@ryanclark.me> https://ryanclark.me
+ * License: MIT
+ */

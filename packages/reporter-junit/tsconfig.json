@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig-build.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "rxjs/*": ["../../node_modules/rxjs/*"]
+    },
+    "outDir": "../../dist/packages/reporter-junit"
+  },
+
+  "files": [
+    "index.ts"
+  ]
+}
