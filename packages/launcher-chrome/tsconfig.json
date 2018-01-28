@@ -5,7 +5,8 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "rxjs/*": ["../../node_modules/rxjs/*"]
+      "rxjs/*": ["../../node_modules/rxjs/*"],
+      "hay": ["../../dist/packages/hay"]
     },
     "outDir": "../../dist/packages/launcher-chrome"
   },
